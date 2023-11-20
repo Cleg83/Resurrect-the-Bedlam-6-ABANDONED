@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Global Styles----------------------------------------------Global Styles*/    
+
+.uppercase {
+    text-transform: uppercase; 
+}
+
+/* Background Colors--------------------------------------Background Colors*/   
+
+.bg-color-name-quote {
+    background-color: #4b4434;
+}
+
+
+
+
+
+
+/* Header------------------------------------------------------------Header*/ 
+
+header {
+    margin: 0;
+}
+
+.heading {
+    text-align: center;
+}
+
+.logo {
+    background: url(../images/bedlam-carousel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.name {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 45px;
+    color: #b3a252
+}
+
+.quote {
+    font-family: "PT+Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 75px;
+    color: #b3a252;
+}
+
+
+
