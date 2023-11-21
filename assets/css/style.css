@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 /* Global Styles----------------------------------------------Global Styles*/
 
@@ -8,7 +8,8 @@
 
 /*Colors-------------------------------------------------------------Colors*/
 
-.bg-color-name-quote {
+
+.bg-color-name-header {
     background-color: #2e2e2c;
 }
 
@@ -28,7 +29,9 @@
     background-color: #09493e;
 }
 
-
+.bg-color-who {
+    background-color: #4b5030;
+}
 
 /* Header------------------------------------------------------------Header*/
 
@@ -38,7 +41,6 @@ header {
 
 .heading {
     text-align: center;
-    height: 200px;
 }
 
 .logo {
@@ -46,37 +48,37 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 300px;
+    min-height: 250px;
 }
-
-
 
 .name {
     font-family: "Rubik", sans-serif;
     font-weight: 400;
     font-size: 36px;
     margin-top: 45px;
+    margin-bottom: 45px;
     color: #f0eede;
 }
 
-.quote {
-    font-family: "PT+Sans", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    margin-top: 15px;
-    margin-bottom: 60px;
-    color: #f0eede;
+
+.nav .list-group-item:first-child {
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border: hidden;
 }
 
-.list-inline-item:not(:last-child) {
-    margin: 0;
+.nav .list-group-item:last-child {
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border: hidden;
 }
 
 .menucontainer {
     font-size: 0px;
+    margin: 0;
 }
 
-#nav li {
+.nav li {
     font-size: 14px;
     padding: 0;
 }
@@ -110,5 +112,70 @@ header {
     letter-spacing: 2px;
 }
 
+/* Members----------------------------------------------------------Members*/ 
 
+.members-section {
+    width: 100%;
+    min-height: 750px;
+}
 
+.members {
+    height: 400px;
+    border: solid 1px black;
+    border-radius: 0.75rem;
+    margin-top: 150px;
+    width: 200px;
+}
+
+.louis {
+    background: url("/assets/images/louis.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.cleg {
+    background: url("/assets/images/cleg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.tom{
+    background: url("/assets/images/tom.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.fran {
+    background: url("/assets/images/fran.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.biff {
+    background: url("/assets/images/biff.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.dan {
+    background: url("/assets/images/dan.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.members:hover,
+.members:focus {
+    transform: scale(1.1);
+}
