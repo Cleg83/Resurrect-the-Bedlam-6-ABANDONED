@@ -117,6 +117,7 @@ header {
 .members-section {
     width: 100%;
     min-height: 750px;
+    
 }
 
 .members {
@@ -125,6 +126,7 @@ header {
     border-radius: 0.75rem;
     margin-top: 150px;
     width: 200px;
+    margin-bottom: 75px;
 }
 
 .louis {
@@ -178,4 +180,11 @@ header {
 .members:hover,
 .members:focus {
     transform: scale(1.1);
+}
+
+/* Bios---------------------------------------------------------------Bios*/
+
+.bio-link {
+    text-decoration: none;
+    color: #f0eede;
 }
