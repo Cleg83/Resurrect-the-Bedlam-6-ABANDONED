@@ -15,52 +15,58 @@
 
 .bg-color-name-header {
     /* background-color: #2e2e2c; */
-    background-image: linear-gradient(127deg in oklab, oklch(4% 0.01 26) 0%, oklch(26% 0 40) 33% 67%, oklch(4% 0.01 26) 100%);
+    background-image:
+        linear-gradient(131deg in oklab,
+            oklch(31% 0.00 21) 0%, oklch(31% 0.00 21 / 80%) 33% 67%, oklch(31% 0.00 21) 100%);
 }
 
 .menu-color-home {
     /* background-color: #4b5030; */
     background-image:
-            linear-gradient(127deg in oklab,
-                oklch(36% 0.15 121) 0%, oklch(48% 0.18 119) 33% 67%, oklch(36% 0.15 121) 100%);
+        linear-gradient(131deg in oklab,
+            oklch(50% 0.08 127) 0%, oklch(50% 0.08 127 / 80%) 33% 67%, oklch(50% 0.08 127) 100%);
 }
 
 .menu-color-who {
     /* background-color: #121314; */
-    background-image: linear-gradient(127deg in oklab, oklch(4% 0.01 26) 0%, oklch(26% 0 40) 33% 67%, oklch(4% 0.01 26) 100%);
+    background-image:
+        linear-gradient(131deg in oklab,
+            oklch(31% 0.00 21) 0%, oklch(31% 0.00 21 / 80%) 33% 67%, oklch(31% 0.00 21) 100%);
 }
 
 .menu-color-why {
     /* background-color: #420c11; */
-    background-image: linear-gradient(127deg in oklab, oklch(28% 0.08 17) 0%, oklch(28% 0.32 29) 33% 67%, oklch(28% 0.08 17) 100%);
+    background-image:
+        linear-gradient(131deg in oklab,
+            oklch(26% 0.15 21) 0%, oklch(26% 0.15 21 / 80%) 33% 67%, oklch(26% 0.15 21) 100%);
 }
 
 .menu-color-how {
     /* background-color: #3b5b7f; */
     background-image:
-            linear-gradient(127deg in oklab,
-                oklch(43% 0.12 255) 0%, oklch(57% 0.16 246) 33% 67%, oklch(43% 0.12 255) 100%);
+        linear-gradient(131deg in oklab,
+            oklch(48% 0.09 243) 0%, oklch(48% 0.09 243 / 80%) 33% 67%, oklch(48% 0.09 243) 100%);
 }
 
 .bg-color-who {
     /* background-color: #4b5030; */
     background-image:
-            linear-gradient(127deg in oklab,
-                oklch(36% 0.15 121) 0%, oklch(48% 0.18 119) 33% 67%, oklch(36% 0.15 121) 100%);
+        linear-gradient(131deg in oklab,
+            oklch(50% 0.08 127) 0%, oklch(50% 0.08 127 / 80%) 33% 67%, oklch(50% 0.08 127) 100%);
 }
 
 .link-icon:hover {
-    color: #3b5b7f;
+    color: oklch(48% 0.09 243);
 }
 
 .footer-menu-link:hover {
-    color: #3b5b7f;
+    color: oklch(48% 0.09 243);
 }
 
 .bg-color-footer {
     background-image:
-        linear-gradient(127deg in oklab,
-            oklch(4% 0.01 26) 0%, oklch(26% 0 40) 33% 67%, oklch(4% 0.01 26) 100%);
+        linear-gradient(131deg in oklab,
+            oklch(31% 0.00 21) 0%, oklch(31% 0.00 21 / 80%) 33% 67%, oklch(31% 0.00 21) 100%);
 }
 
 /* Header------------------------------------------------------------Header*/
@@ -160,12 +166,18 @@ header {
     margin-bottom: 75px;
 }
 
+.member-photo {
+    min-height: 400px;  
+}
+
+
+
 #louis-photo {
     background: url("/assets/images/louis.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 400px;
+    
 }
 
 #cleg-photo {
@@ -173,7 +185,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 400px;
+   
 }
 
 #tom-photo {
@@ -181,7 +193,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 400px;
+    
 }
 
 #fran-photo {
@@ -189,7 +201,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 400px;
+   
 }
 
 #biff-photo {
@@ -197,7 +209,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 400px;
+    
 }
 
 #dan-photo {
@@ -205,7 +217,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 400px;
+  
 }
 
 .members:hover,
@@ -219,6 +231,7 @@ header {
 .member-info {
     margin-top: 50px;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .member-bio p {
@@ -245,9 +258,9 @@ hr {
     margin-bottom: 0;
 }
 
-.member-info:focus {
-    padding-top: 50px;
-    padding-bottom: 50px;
+.member-info:focus-visible {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 
@@ -302,7 +315,7 @@ footer {
     width: 30px;
     height: 30px;
     padding-left: 10px;
-    padding-right: 10px; 
+    padding-right: 10px;
 }
 
 
@@ -310,7 +323,7 @@ footer {
     margin-right: 25px;
 }
 
-/* Media Queries----------------------------------------------Media Queries*/   
+/* Media Queries----------------------------------------------Media Queries*/
 
 @media screen and (max-width: 767.98px) {
     .footer-menu {
@@ -321,9 +334,102 @@ footer {
     .footer-menu li a {
         margin-top: 20px;
     }
+
     .social {
         text-align: center;
         margin-right: 0;
-        padding-top: 0px;
+        padding-top: 7px;
     }
 }
+
+/* Contact Page/HOW?--------------------------------------Contact Page/HOW?*/
+
+.bg-color-how-page {
+    min-height: 350px;
+    background-color: #f0eede;
+}
+
+.how-heading {
+    padding-top: 1.5rem;
+    padding-bottom: 0.75rem;
+}
+
+.form-container {
+    width: 80%;
+    margin: 0 auto; 
+}
+
+/* Why page--------------------------------------------------------Why page*/
+
+.bg-color-why-page {
+    min-height: 500px;
+    background-image:
+        linear-gradient(131deg in oklab,
+            oklch(26% 0.15 21) 0%, oklch(26% 0.15 21 / 80%) 33% 67%, oklch(26% 0.15 21) 100%);
+}
+
+#video-header {
+    padding-top: 4.5rem;
+}
+
+.why-header {
+    color: #f0eede;
+    font-family: "Bitter", sans-serif;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.why-header-text {
+    color: #f0eede;
+    font-family: "Bitter", sans-serif;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.music-video {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+#review-header {
+    padding-top: 3rem;
+}
+
+.review {
+    color: #f0eede;
+    font-family: "Bitter", sans-serif;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.review:first-child {
+    padding-top: 0.5rem;
+}
+
+.review-text {
+    font-size: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 0;
+}
+
+.review-source {
+    font-size: 0.8rem;
+    font-style: italic;
+    padding-top: 0.35rem;
+}
+
+.review-page-break {
+    height: 0.35rem;
+    width: 60px;
+    margin: 0 auto;
+    background-color: #f0eede;
+    border-radius: 0.5rem;
+}
+
+.review-page-break:nth-of-type(23) {
+    margin-bottom: 1.5rem;
+}
+
