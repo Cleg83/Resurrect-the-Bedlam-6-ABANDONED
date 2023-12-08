@@ -14,45 +14,40 @@
 
 
 .bg-color-name-header {
-    /* background-color: #2e2e2c; */
     background-image:
         linear-gradient(131deg in oklab,
-            oklch(31% 0.00 21) 0%, oklch(31% 0.00 21 / 80%) 33% 67%, oklch(31% 0.00 21) 100%);
+        oklch(31% 0.00 21) 0%, oklch(31% 0.00 21 / 80%) 33% 67%, oklch(31% 0.00 21) 100%);
 }
 
 .menu-color-home {
-    /* background-color: #4b5030; */
     background-image:
         linear-gradient(131deg in oklab,
-            oklch(50% 0.08 127) 0%, oklch(50% 0.08 127 / 80%) 33% 67%, oklch(50% 0.08 127) 100%);
+        oklch(50% 0.08 127) 0%, oklch(50% 0.08 127 / 80%) 33% 67%, oklch(50% 0.08 127) 100%);
 }
 
 .menu-color-who {
-    /* background-color: #121314; */
     background-image:
         linear-gradient(131deg in oklab,
-            oklch(31% 0.00 21) 0%, oklch(31% 0.00 21 / 80%) 33% 67%, oklch(31% 0.00 21) 100%);
+        oklch(31% 0.00 21) 0%, oklch(31% 0.00 21 / 80%) 33% 67%, oklch(31% 0.00 21) 100%);
 }
 
 .menu-color-why {
-    /* background-color: #420c11; */
     background-image:
         linear-gradient(131deg in oklab,
-            oklch(26% 0.15 21) 0%, oklch(26% 0.15 21 / 80%) 33% 67%, oklch(26% 0.15 21) 100%);
+        oklch(26% 0.15 21) 0%, oklch(26% 0.15 21 / 80%) 33% 67%, oklch(26% 0.15 21) 100%);
 }
 
 .menu-color-how {
-    /* background-color: #3b5b7f; */
+    
     background-image:
         linear-gradient(131deg in oklab,
             oklch(48% 0.09 243) 0%, oklch(48% 0.09 243 / 80%) 33% 67%, oklch(48% 0.09 243) 100%);
 }
 
-.bg-color-who {
-    /* background-color: #4b5030; */
+.bg-color-who-section {
     background-image:
         linear-gradient(131deg in oklab,
-            oklch(50% 0.08 127) 0%, oklch(50% 0.08 127 / 80%) 33% 67%, oklch(50% 0.08 127) 100%);
+        oklch(50% 0.08 127) 0%, oklch(50% 0.08 127 / 80%) 33% 67%, oklch(50% 0.08 127) 100%);
 }
 
 .link-icon:hover {
@@ -66,7 +61,18 @@
 .bg-color-footer {
     background-image:
         linear-gradient(131deg in oklab,
-            oklch(31% 0.00 21) 0%, oklch(31% 0.00 21 / 80%) 33% 67%, oklch(31% 0.00 21) 100%);
+        oklch(31% 0.00 21) 0%, oklch(31% 0.00 21 / 80%) 33% 67%, oklch(31% 0.00 21) 100%);
+}
+
+.bg-color-why-page {
+    min-height: 500px;
+    background-image:
+        linear-gradient(131deg in oklab,
+        oklch(26% 0.15 21) 0%, oklch(26% 0.15 21 / 80%) 33% 67%, oklch(26% 0.15 21) 100%);
+}
+
+.bg-color-how-page {
+    background-color: #f0eede;
 }
 
 /* Header------------------------------------------------------------Header*/
@@ -323,30 +329,10 @@ footer {
     margin-right: 25px;
 }
 
-/* Media Queries----------------------------------------------Media Queries*/
-
-@media screen and (max-width: 767.98px) {
-    .footer-menu {
-        text-align: center;
-        padding-left: 0px;
-    }
-
-    .footer-menu li a {
-        margin-top: 20px;
-    }
-
-    .social {
-        text-align: center;
-        margin-right: 0;
-        padding-top: 7px;
-    }
-}
-
 /* Contact Page/HOW?--------------------------------------Contact Page/HOW?*/
 
-.bg-color-how-page {
+.how-page {
     min-height: 350px;
-    background-color: #f0eede;
 }
 
 .how-heading {
@@ -370,13 +356,6 @@ footer {
 }
 
 /* Why page--------------------------------------------------------Why page*/
-
-.bg-color-why-page {
-    min-height: 500px;
-    background-image:
-        linear-gradient(131deg in oklab,
-            oklch(26% 0.15 21) 0%, oklch(26% 0.15 21 / 80%) 33% 67%, oklch(26% 0.15 21) 100%);
-}
 
 #video-header {
     padding-top: 4.5rem;
@@ -441,6 +420,26 @@ footer {
 
 .review-page-break:nth-of-type(23) {
     margin-bottom: 1.5rem;
+}
+
+
+/* Media Queries----------------------------------------------Media Queries*/
+
+@media screen and (max-width: 767.98px) {
+    .footer-menu {
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .footer-menu li a {
+        margin-top: 20px;
+    }
+
+    .social {
+        text-align: center;
+        margin-right: 0;
+        padding-top: 7px;
+    }
 }
 
 
