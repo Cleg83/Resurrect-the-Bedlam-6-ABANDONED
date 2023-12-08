@@ -352,11 +352,21 @@ footer {
 .how-heading {
     padding-top: 1.5rem;
     padding-bottom: 0.75rem;
+    font-family: "Bitter", sans-serif;
 }
 
 .form-container {
     width: 80%;
     margin: 0 auto; 
+    font-family: "Bitter", sans-serif;
+}
+
+.form-button {
+    color: #f0eede;
+    background-image:
+            linear-gradient(131deg in oklab,
+            oklch(48% 0.09 243) 0%, oklch(48% 0.09 243 / 80%) 33% 67%, oklch(48% 0.09 243) 100%);
+    margin-bottom: 1.5rem;
 }
 
 /* Why page--------------------------------------------------------Why page*/
@@ -432,4 +442,5 @@ footer {
 .review-page-break:nth-of-type(23) {
     margin-bottom: 1.5rem;
 }
+
 
