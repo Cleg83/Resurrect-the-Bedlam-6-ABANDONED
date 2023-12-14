@@ -13,32 +13,33 @@
 /*Colors-------------------------------------------------------------Colors*/
 
 
+
 .bg-color-name-header {
     background-image:
         linear-gradient(131deg in oklab,
-        oklch(31% 0.00 21) 0%, oklch(31% 0.00 21 / 80%) 33% 67%, oklch(31% 0.00 21) 100%);
+            oklch(31% 0.00 21) 0%, oklch(31% 0.00 21 / 80%) 33% 67%, oklch(31% 0.00 21) 100%);
 }
 
 .menu-color-home {
     background-image:
         linear-gradient(131deg in oklab,
-        oklch(50% 0.08 127) 0%, oklch(50% 0.08 127 / 80%) 33% 67%, oklch(50% 0.08 127) 100%);
+            oklch(33% 0.04 289) 0%, oklch(33% 0.04 289 / 80%) 50%, oklch(33% 0.04 289) 100%);
 }
 
 .menu-color-who {
     background-image:
         linear-gradient(131deg in oklab,
-        oklch(31% 0.00 21) 0%, oklch(31% 0.00 21 / 80%) 33% 67%, oklch(31% 0.00 21) 100%);
+            oklch(31% 0.00 21) 0%, oklch(31% 0.00 21 / 80%) 33% 67%, oklch(31% 0.00 21) 100%);
 }
 
 .menu-color-why {
     background-image:
         linear-gradient(131deg in oklab,
-        oklch(26% 0.15 21) 0%, oklch(26% 0.15 21 / 80%) 33% 67%, oklch(26% 0.15 21) 100%);
+            oklch(26% 0.15 21) 0%, oklch(26% 0.15 21 / 80%) 33% 67%, oklch(26% 0.15 21) 100%);
 }
 
 .menu-color-how {
-    
+
     background-image:
         linear-gradient(131deg in oklab,
             oklch(48% 0.09 243) 0%, oklch(48% 0.09 243 / 80%) 33% 67%, oklch(48% 0.09 243) 100%);
@@ -47,28 +48,30 @@
 .bg-color-who-section {
     background-image:
         linear-gradient(131deg in oklab,
-        oklch(50% 0.08 127) 0%, oklch(50% 0.08 127 / 80%) 33% 67%, oklch(50% 0.08 127) 100%);
+            oklch(33% 0.04 289) 0%, oklch(33% 0.04 289 / 80%) 50%, oklch(33% 0.04 289) 100%);
 }
 
 .link-icon:hover {
-    color: oklch(48% 0.09 243);
+    color: #a10f05;
 }
 
 .footer-menu-link:hover {
-    color: oklch(48% 0.09 243);
+    color: #a10f05;
+}
+
+.nav-link:hover {
+    color: #a10f05;
 }
 
 .bg-color-footer {
-    background-image:
-        linear-gradient(131deg in oklab,
-        oklch(31% 0.00 21) 0%, oklch(31% 0.00 21 / 80%) 33% 67%, oklch(31% 0.00 21) 100%);
+    background-color: #f1f2df;
 }
 
 .bg-color-why-page {
     min-height: 500px;
     background-image:
         linear-gradient(131deg in oklab,
-        oklch(26% 0.15 21) 0%, oklch(26% 0.15 21 / 80%) 33% 67%, oklch(26% 0.15 21) 100%);
+            oklch(26% 0.15 21) 0%, oklch(26% 0.15 21 / 80%) 33% 67%, oklch(26% 0.15 21) 100%);
 }
 
 .bg-color-how-page {
@@ -77,28 +80,38 @@
 
 /* Header------------------------------------------------------------Header*/
 
-header {
+/* header {
     margin: 0;
     font-family: "Bitter", sans-serif;
 }
 
 .heading {
     text-align: center;
+} */
+
+.bg-member-section {
+    background: url(../images/bedlam-dark-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.logo {
+
+
+/* .logo {
     background: url(../images/bedlam-carousel.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 250px;
-}
+} */
 
-.name {
+.name-heading {
     font-family: "Bitter", sans-serif;
     font-weight: 400;
     font-size: 36px;
-    margin-top: 45px;
+    padding-top: 100px;
+    margin-top: 0;
     margin-bottom: 45px;
     color: #f0eede;
 }
@@ -155,35 +168,47 @@ header {
     letter-spacing: 2px;
 }
 
+
+/*New Navbar stylings-----------------------------------New Navbar stylings*/
+
+.bg-navbar {
+    background-color: #fcfcf5;
+}
+
+.navbar {
+    font-family: "Bitter", sans-serif;;
+}
+
 /* Members----------------------------------------------------------Members*/
 
 .member-section {
     width: 100%;
-    min-height: 750px;
     font-family: "Bitter", sans-serif;
+    margin-top: 0;
 }
 
-.members {
+.member-name {
+    color: #f0eede;
+}
+
+/* .members {
     height: 400px;
     border: solid 1px black;
     border-radius: 0.75rem;
-    margin-top: 150px;
+    padding-top: 150px;
     width: 200px;
     margin-bottom: 75px;
-}
+} */
 
 .member-photo {
-    min-height: 400px;  
+    min-height: 400px;
 }
-
-
 
 #louis-photo {
     background: url("/assets/images/louis.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 #cleg-photo {
@@ -191,7 +216,6 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   
 }
 
 #tom-photo {
@@ -199,7 +223,6 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 #fran-photo {
@@ -207,7 +230,6 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   
 }
 
 #biff-photo {
@@ -215,7 +237,6 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 #dan-photo {
@@ -223,7 +244,6 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  
 }
 
 .members:hover,
@@ -238,12 +258,13 @@ header {
     margin-top: 50px;
     margin-bottom: 25px;
     text-align: center;
-}
-
-.member-bio p {
-    text-align: left;
     color: #f0eede;
 }
+
+/* .member-bio p {
+    text-align: center;
+    color: #f0eede;
+} */
 
 .bio-link {
     text-decoration: none;
@@ -269,7 +290,6 @@ hr {
     padding-bottom: 5rem;
 }
 
-
 /* Footer------------------------------------------------------------Footer*/
 
 footer {
@@ -288,12 +308,12 @@ footer {
 }
 
 .footer-menu li a {
-    color: #f0eede;
     text-decoration: none;
     font-size: 20px;
     font-weight: 400;
     padding-right: 25px;
     margin-top: 40px;
+    color: #000;
 }
 
 .copy-container {
@@ -303,9 +323,9 @@ footer {
 }
 
 .copy {
-    color: #f0eede;
     font-weight: 200;
     margin-top: 70px;
+    color: #000;
 }
 
 
@@ -316,14 +336,13 @@ footer {
 }
 
 .social-links {
-    color: #f0eede;
     font-size: 26px;
     width: 30px;
     height: 30px;
     padding-left: 10px;
     padding-right: 10px;
+    color: #000;
 }
-
 
 .social-links:last-child {
     margin-right: 25px;
@@ -343,14 +362,14 @@ footer {
 
 .form-container {
     width: 80%;
-    margin: 0 auto; 
+    margin: 0 auto;
     font-family: "Bitter", sans-serif;
 }
 
 .form-button {
     color: #f0eede;
     background-image:
-            linear-gradient(131deg in oklab,
+        linear-gradient(131deg in oklab,
             oklch(48% 0.09 243) 0%, oklch(48% 0.09 243 / 80%) 33% 67%, oklch(48% 0.09 243) 100%);
     margin-bottom: 1.5rem;
 }
@@ -441,5 +460,3 @@ footer {
         padding-top: 7px;
     }
 }
-
-
